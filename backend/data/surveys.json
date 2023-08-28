@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Survey1",
+    "length": "5",
+    "reward": "0.8",
+    "currency": "$"
+  },
+  {
+    "id": 2,
+    "name": "Survey2",
+    "length": "15",
+    "reward": "1.4",
+    "currency": "$"
+  }
+]
