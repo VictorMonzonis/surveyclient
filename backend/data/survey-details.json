@@ -41,5 +41,30 @@
         "answer":[]
       }
     ]
+  },
+  {
+    "id": 3,
+    "questions": [
+      {
+        "questionId": 1,
+        "type": "single-choice",
+        "description": "Do you have car?",
+        "options": ["Yes", "No"],
+        "answer":[]
+      },
+      {
+        "questionId": 2,
+        "type": "input",
+        "description": "How old are you?",
+        "answer":[]
+      },
+      {
+        "questionId": 3,
+        "type": "single-choice",
+        "description": "If you say you have car, how often do you use it?",
+        "options": ["Every day", "A few times a week", "Rarely"],
+        "answer":[]
+      }
+    ]
   }
 ]

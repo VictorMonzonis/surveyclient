@@ -12,5 +12,12 @@
     "length": "15",
     "reward": "1.4",
     "currency": "$"
+  },
+  {
+    "id": 3,
+    "name": "Survey3",
+    "length": "10",
+    "reward": "1",
+    "currency": "$"
   }
 ]

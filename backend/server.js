@@ -3,7 +3,7 @@ const cors = require('cors');
 const fs = require('fs').promises;
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 app.use(cors());
 
@@ -39,6 +39,3 @@ app.get('/SurveyDetails/:id', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`);
 });
-
-// http://localhost:3000/Surveys
-// http://localhost:3000/SurveyDetails/1

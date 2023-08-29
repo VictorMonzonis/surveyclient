@@ -10,23 +10,33 @@ This solution is intended to be used as a test for candidates. The code of it wi
 
 ## Project Overview
 
-backend contains the server side:
-the Dto provided would be survey and survey-detail, those entieties share the id to establish relationships.
+The backend comprises the server-side component, handling the following:
+DTOs: The provided DTOs include 'survey' and 'survey-detail'. These entities are linked by a shared ID, establishing relationships between them."
 
+Endpoints:
+- http://localhost:4000/Surveys
+- http://localhost:4000/SurveyDetails/1
+
+survey-app contains the react application, here is were the code should be added.
 
 ## Features
 
-- Feature 1: The main page displays a list with all the surveys avalable.
-- Feature 2: Clicking in one specific survey we can start filling it.
-    - Once the survey is completed we comeback to the surveys page.
-    - If the survey is cancel in the middle, this survey is not completed and is not displayed anylonger in the surveys page. We return to the previous page.
+- Feature 1: The main page showcases a comprehensive list of available surveys.
+- Feature 2: Clicking on a specific survey initiates the process of filling it out.
+    - Upon completing the survey, users are directed back to the surveys page.
+    - Should the survey be canceled prematurely, it remains incomplete and will no longer be visible on the surveys page. Users will be returned to the previous page.
 
 ## Installation
 
 Node installed (tested in v18.17.1)
 
 ```bash
-$ git clone https://github.com/yourusername/your-project.git
+# To run the BE
 $ cd backend
-$ npm install  # Or any other installation command
-$ npm start # Or node node server.js to start the server.
+$ npm install
+$ npm start
+
+# To run the FE
+$ cd survey-app
+$ npm install
+$ npm start
